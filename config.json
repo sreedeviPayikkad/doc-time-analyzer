@@ -1,0 +1,10 @@
+{
+  "docs": ["1OAmbx1hgx7hAQOXmNnUdHW2KtXmg2PNrSuUmWdthJtE"],
+  "default": 130,
+  "cap": 600,
+  "explain": true,
+  "print_revs": true,
+  "dump_raw": "raw.json",
+  "tz": "America/Los_Angeles",
+  "print_activity": true
+}
