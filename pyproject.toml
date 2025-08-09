@@ -1,0 +1,17 @@
+[project]
+name = "doc-time-analyzer"
+version = "0.1.0"
+description = "Estimate time spent editing Google Docs using Revisions timestamps with a 2-minute default heuristic."
+authors = [
+    {name = "sreedevisasikumar",email = "work.sreedevi.sasikumar@gmail.com"}
+]
+readme = "README.md"
+packages = [{ include = "doc_time_analyzer", from = "src" }]
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+google-auth-oauthlib = "*"
+google-api-python-client = "*"
+python-dateutil = "*"
+
+[tool.poetry.scripts]
+doc-time = "doc_time_analyzer.main:main"

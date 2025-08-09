@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+
+# macOS
+.DS_Store
+
+# Credentials & runtime artifacts
+client_secret.json
+token.json
+doc_time_report.json
