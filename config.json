@@ -1,10 +1,17 @@
 {
-  "docs": ["1OAmbx1hgx7hAQOXmNnUdHW2KtXmg2PNrSuUmWdthJtE"],
-  "default": 130,
-  "cap": 600,
-  "explain": true,
-  "print_revs": true,
-  "dump_raw": "raw.json",
-  "tz": "America/Los_Angeles",
-  "print_activity": true
+    "docs": [
+        "1OAmbx1hgx7hAQOXmNnUdHW2KtXmg2PNrSuUmWdthJtE"
+    ],
+    "mode": "combined-sessions",
+    "idle_gap": 600,
+    "last_default": 300,
+    "min_session": 60,
+    "print_activity": true,
+    "activity_events_json": "activity_events.json",
+    "activity_csv": "activity.csv",
+    "print_revs": true,
+    "explain": true,
+    "default": 120,
+    "cap": 600,
+    "tz": "America/Los_Angeles"
 }
